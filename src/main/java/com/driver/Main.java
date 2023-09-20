@@ -1,6 +1,10 @@
 package com.driver;
 
 public class Main {
+  Product p = new Product();
+  p.product(2,3);
+  p.product(2,3,4);
+  p.product(2.0,3.0);
   class Product{
     public int product(int x, int y){
       return x * y;
@@ -12,8 +16,4 @@ public class Main {
       return x * y;
     }
   }
-  Product p = new Product();
-  p.product(2,3);
-  p.product(2,3,4);
-  p.product(2.0,3.0);
 }
